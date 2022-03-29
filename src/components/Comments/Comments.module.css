@@ -1,0 +1,33 @@
+.comments {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 1rem;
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.comment {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.comment p span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 1024px) {
+  .comments {
+    padding: 2rem;
+  }
+}

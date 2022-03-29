@@ -1,0 +1,72 @@
+.posts {
+  margin: 2rem 0;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.cardContent {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardBtnRight,
+.cardBtnLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #ff0066;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.cardBtnRight {
+  right: 0;
+}
+
+.cardBtnLeft {
+  left: 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.carousel {
+  padding: 0 0.5rem;
+}

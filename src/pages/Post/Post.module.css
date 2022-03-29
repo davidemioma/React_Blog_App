@@ -1,0 +1,12 @@
+.post {
+  width: 100%;
+  padding: 1.5rem 0;
+  display: grid;
+  gap: 5rem 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  .post {
+    grid-template-columns: 60% 40%;
+  }
+}
